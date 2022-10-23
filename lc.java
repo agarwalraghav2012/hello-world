@@ -4,6 +4,7 @@ class Solution {
         int l = 0, r =0 ;
         HashSet<Character> h = new HashSet<Character>() ;
         int len = 0;
+        // 89898989
         while(l<=r && (l<n && r<n)) {
             if(h.contains(s.charAt(r))==false) {
                 len = Math.max(len, r-l+1);
