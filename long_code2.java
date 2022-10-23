@@ -14,7 +14,7 @@ class Solution {
                 l1.val = l1.val + l2.val + carry ;
                 carry = 0 ;
                 prev.next = l1 ;
-                prev = prev.next ;
+                prev = prev.next ;//98989898
                 l1 = l1.next ;
                 l2 = l2.next ;
             }
