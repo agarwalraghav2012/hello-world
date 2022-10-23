@@ -11,7 +11,7 @@ class Solution {
                 ans[0] = i ;
                 ans[1] = map.get(target-nums[i]) ;
                 break ;
-//                 here is a break state ment, you should look carefully
+//                 here is a break state ment, you should look carefully deepawali
             }
         }
         return ans ;
